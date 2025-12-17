@@ -9,9 +9,6 @@ description = "A CSV profiling tool that analyzes and generates reports for CSV 
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-authors = [
-    {name = "Faris Hijazi", email = "theefaris@gmail.com"}
-]
 keywords = ["csv", "profiler", "data", "analysis"]
 classifiers = [
     "Development Status :: 3 - Alpha",
