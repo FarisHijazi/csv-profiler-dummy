@@ -32,7 +32,7 @@ dev = [
 ]
 
 [project.scripts]
-csv-profiler = "src.cli:app"
+csv-profiler = "src.csv_profiler.cli:app"
 
 [tool.setuptools.packages.find]
 where = ["."]

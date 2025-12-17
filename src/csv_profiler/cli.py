@@ -5,8 +5,8 @@ from typing import Optional
 
 import typer
 
-from src.profiler import profile_csv
-from src.render import generate_json_report, generate_markdown_report
+from .profiler import profile_csv
+from .render import generate_json_report, generate_markdown_report
 
 app = typer.Typer(help="CSV Profiler - Analyze and profile CSV files")
 
@@ -99,6 +99,9 @@ def info(
     else:
         typer.echo("Empty CSV file")
 
+@app.command()
+def web():
+    return
 
 if __name__ == "__main__":
     app()

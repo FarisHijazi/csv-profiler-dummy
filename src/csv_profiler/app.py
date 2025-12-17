@@ -1,7 +1,7 @@
 import streamlit as st
 import csv
 from io import StringIO
-from profiler import profile_csv
+from .profiler import profile_csv
 
 st.set_page_config(page_title="CSV Profiler", layout="wide")
 st.title("CSV Profiler")
